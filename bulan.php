@@ -12,29 +12,29 @@ $Koneksi = mysqli_select_db($konek,"dams_p2");
 function bulan1($bulan)
 {
 Switch ($bulan){
-    case 01 : $bulan="Januari";
+    case "01" : $bulan="Januari";
         Break;
-    case 02 : $bulan="Februari";
+    case "02" : $bulan="Februari";
         Break;
-    case 03 : $bulan="Maret";
+    case "03" : $bulan="Maret";
         Break;
-    case 04 : $bulan="April";
+    case "04" : $bulan="April";
         Break;
-    case 05 : $bulan="Mei";
+    case "05" : $bulan="Mei";
         Break;
-    case 06 : $bulan="Juni";
+    case "06" : $bulan="Juni";
         Break;
-    case 07 : $bulan="Juli";
+    case "07" : $bulan="Juli";
         Break;
-    case 08 : $bulan="Agustus";
+    case "08" : $bulan="Agustus";
         Break;
-    case 09 : $bulan="September";
+    case "09" : $bulan="September";
         Break;
-    case 10 : $bulan="Oktober";
+    case "10" : $bulan="Oktober";
         Break;
-    case 11 : $bulan="November";
+    case "11" : $bulan="November";
         Break;
-    case 12 : $bulan="Desember";
+    case "12" : $bulan="Desember";
         Break;
     }
 return $bulan;
@@ -44,29 +44,29 @@ return $bulan;
 function bulan2($bulan)
 {
 Switch ($bulan){
-    case 01 : $bulan="Januari";
+    case "01" : $bulan="Januari";
         Break;
-    case 02 : $bulan="Februari";
+    case "02" : $bulan="Februari";
         Break;
-    case 03 : $bulan="Maret";
+    case "03" : $bulan="Maret";
         Break;
-    case 04 : $bulan="April";
+    case "04" : $bulan="April";
         Break;
-    case 05 : $bulan="Mei";
+    case "05" : $bulan="Mei";
         Break;
-    case 06 : $bulan="Juni";
+    case "06" : $bulan="Juni";
         Break;
-    case 07 : $bulan="Juli";
+    case "07" : $bulan="Juli";
         Break;
-    case 08 : $bulan="Agustus";
+    case "08" : $bulan="Agustus";
         Break;
-    case 09 : $bulan="September";
+    case "09" : $bulan="September";
         Break;
-    case 10 : $bulan="Oktober";
+    case "10" : $bulan="Oktober";
         Break;
-    case 11 : $bulan="November";
+    case "11" : $bulan="November";
         Break;
-    case 12 : $bulan="Desember";
+    case "12" : $bulan="Desember";
         Break;
     }
 return $bulan;
