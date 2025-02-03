@@ -1,0 +1,332 @@
+<?php
+$konek = mysqli_connect('localhost','root','dams','dams_p2');
+$module = $_GET['module'];
+if($module=='')
+{
+	include"module/dashboard/wordstoday.php";
+}
+if($module=='dashboard')
+{
+	include"module/dashboard/view.php";
+}
+if($module=='realisasi_rki')
+{
+	include"module/dashboard/view_rki.php";
+}
+//RKO
+if($module=='rko')
+{
+	include"module/rko/view.php";
+}
+if($module=='input_rko')
+{
+	include"module/rko/form_input.php";
+}
+if($module=='del_rko')
+{
+	include"module/rko/del_proses.php";
+}
+//uraian RKO
+if($module=='input_uraian')
+{
+	include"module/uraian/form_input.php";
+}
+if($module=='view_uraian')
+{
+	include"module/uraian/view.php";
+}
+if($module=='edit_uraian')
+{
+	include"module/uraian/form_edit.php";
+}
+if($module=='del_uraian')
+{
+	include"module/uraian/del_proses.php";
+}
+if($module=='input_realisasi')
+{
+	include"module/uraian/form_realisasi.php";
+}
+//admin
+if($module=='admin')
+{
+	include"module/admin/view.php";
+}
+//kegiatan
+if($module=='kegiatan')
+{
+	include"module/kegiatan/view.php";
+}
+if($module=='view_kegiatan')
+{
+	include"module/kegiatan/view2.php";
+}
+if($module=='input_kegiatan')
+{
+	include"module/kegiatan/form_input.php";
+}
+//rapat
+
+if($module=='input_rapat')
+{
+	include"module/rapat/form_input.php";
+}
+if($module=='view_rp')
+{
+	include"module/rapat/view2.php";
+}
+if($module=='del_rp')
+{
+	include"module/rapat/proses_del.php";
+}
+//surat tugas
+if($module=='surat_tugas')
+{
+	include"module/st/view.php";
+}
+if($module=='input_st')
+{
+	include"module/st/form_input.php";
+}
+if($module=='input_st2')
+{
+	include"module/st/form_input2.php";
+}
+if($module=='view_st')
+{
+	include"module/st/view2.php";
+}
+if($module=='del_peg')
+{
+	include"module/st/delete_peg.php";
+}
+if($module=='del_st')
+{
+	include"module/st/del_st.php";
+}
+//profil
+if($module=='profil')
+{
+	include"module/profil/view.php";
+}
+if($module=='proses_profil3')
+{
+	include"module/profil/proses3.php";
+}
+if($module=='input_rki')
+{
+	include"module/profil/form_input1.php";
+}
+if($module=='view_rki')
+{
+	include"module/profil/view2.php";
+}
+if($module=='edit_rki')
+{
+	include"module/profil/form_edit.php";
+}
+if($module=='del_rki')
+{
+	include"module/profil/proses_del.php";
+}
+if($module=='keg_rki')
+{
+	include"module/profil/form_input2.php";
+}
+if($module=='del_keg')
+{
+	include"module/profil/proses_del2.php";
+}
+if($module=='isi')
+{
+	include"module/profil/view3.php";
+}
+if($module=='isi_realisasi')
+{
+	include"module/profil/form_input3.php";
+}
+//RKI Pelaksana
+if($module=='rki_pelaksana')
+{
+	include"module/r_pelaksana/view.php";
+}
+if($module=='view_rpelaksana')
+{
+	include"module/r_pelaksana/view2.php";
+}
+if($module=='v_rki')
+{
+	include"module/r_pelaksana/view3.php";
+}
+//realisasi
+if($module=='realisasi_pelaksana')
+{
+	include"module/r_pelaksana/view5.php";
+}
+//kepegawaian
+if($module=='kepegawaian')
+{
+	include"module/kepegawaian/view.php";
+}
+if($module=='input_pegawai')
+{
+	include"module/kepegawaian/form_input.php";
+}
+if($module=='del_pegawai')
+{
+	include"module/kepegawaian/proses_del.php";
+}
+if($module=='view_pegawai')
+{
+	include"module/kepegawaian/view2.php";
+}
+//jadwal direktur
+if($module=='jadwal_direktur')
+{
+	include"module/jadwal_direktur/view.php";
+}
+if($module=='view_jadwal_direktur')
+{
+	include"module/jadwal_direktur/view2.php";
+}
+if($module=='input_jadwal_direktur')
+{
+	include"module/jadwal_direktur/form_input.php";
+}
+if($module=='edit_jadwal_direktur')
+{
+	include"module/jadwal_direktur/form_input2.php";
+}
+if($module=='hapus_jadwal_direktur')
+{
+	include"module/jadwal_direktur/proses_del.php";
+}
+//rapat direktur
+
+if($module=='input_rapat_direktur')
+{
+	include"module/rapat_direktur/form_input.php";
+}
+if($module=='view_rp_direktur')
+{
+	include"module/rapat_direktur/view2.php";
+}
+if($module=='del_rp_direktur')
+{
+	include"module/rapat_direktur/proses_del.php";
+}
+if($module=='validasi_rp_direktur')
+{
+	include"module/rapat_direktur/proses_val.php";
+}
+if($module=='del_validasi_rp_direktur')
+{
+	include"module/rapat_direktur/proses_del_val.php";
+}
+//surat tugas direktur
+if($module=='surat_tugas_direktur')
+{
+	include"module/st_direktur/view.php";
+}
+if($module=='input_st_direktur')
+{
+	include"module/st_direktur/form_input.php";
+}
+if($module=='input_st2_direktur')
+{
+	include"module/st_direktur/form_input2.php";
+}
+if($module=='view_st_direktur')
+{
+	include"module/st_direktur/tesview.php";
+}
+if($module=='del_peg_direktur')
+{
+	include"module/st_direktur/delete_peg.php";
+}
+if($module=='del_st_direktur')
+{
+	include"module/st_direktur/del_st.php";
+}
+if($module=='dashboard_direktur')
+{
+	include"module/dashboard_direktur/view.php";
+}
+if($module=='dashboard_direktur_utama')
+{
+	include"module/dashboard_direktur/view2.php";
+}
+if($module=='pencarian_dashboard_direktur_utama')
+{
+	include"module/dashboard_direktur/view3.php";
+}
+if($module=='penugasan_pegawai_st')
+{
+	include"module/penugasan_pegawai_st/view.php";
+}
+if($module=='input_st_penugasan_pegawai')
+{
+	include"module/penugasan_pegawai_st/form_input_st.php";
+}
+if($module=='input_tim_penugasan_pegawai')
+{
+	include"module/penugasan_pegawai_st/input_data_tim.php";
+}
+if($module=='edit_st_penugasan_pegawai')
+{
+	include"module/penugasan_pegawai_st/form_edit_st.php";
+}
+if($module=='input_tim_edit_penugasan_pegawai')
+{
+	include"module/penugasan_pegawai_st/input_data_tim_edit.php";
+}
+if($module=='hapus_tim_edit_penugasan_pegawai')
+{
+	include"module/penugasan_pegawai_st/hapus_input_tim_edit.php";
+}
+if($module=='hapus_st_penugasan_pegawai')
+{
+	include"module/penugasan_pegawai_st/proses_del_st.php";
+}
+if($module=='pencarian_jadwal_st')
+{
+	include"module/penugasan_pegawai_st/view.php";
+}
+if($module=='booking_ruang')
+{
+	include"module/booking_ruang/view.php";
+}
+if($module=='input_ruangan')
+{
+	include"module/booking_ruang/form_input.php";
+}
+if($module=='hapus_input_ruangan')
+{
+	include"module/booking_ruang/proses_del.php";
+}
+if($module=='edit_ruangan')
+{
+	include"module/booking_ruang/form_edit.php";
+}
+if($module=='pencarian_jadwal_ruangan')
+{
+	include"module/booking_ruang/view.php";
+}
+//spd
+if($module=='spd')
+{
+	include"module/spd/view.php";
+}
+if($module=='edit_spd')
+{
+	include"module/spd/form_edit_spd.php";
+}
+if($module=='input_spd_edit')
+{
+	include"module/spd/form_edit_spd.php";
+}
+if($module=='hapus_input_spd')
+{
+	include"module/spd/hapus_input_spd.php";
+}
+?>
