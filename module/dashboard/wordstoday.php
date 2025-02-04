@@ -373,7 +373,7 @@
 								$idst_teknik = $data4['id'];
 								?>
 								<td><?php if($agenda ==""){echo "Tidak Ada Jadwal";}else{echo $no.'. '.$agenda.' Waktu '.$mulai.' WIB - '.$selesai.' WIB';} ?>
-								 <?php $id = $data['id'];$idst = $data['id'];$kueritim = "select distinct * from pegawai_events,id_seksi where id_events_pgw='$idst_teknik' and pegawai_events.id_sie=id_seksi.id_sie";$runtim = mysqli_query($konek,$kueritim);$urut = a;$cek=$datatim['nama'];
+								 <?php $id = $data['id'];$idst = $data['id'];$kueritim = "select distinct * from pegawai_events,id_seksi where id_events_pgw='$idst_teknik' and pegawai_events.id_sie=id_seksi.id_sie";$runtim = mysqli_query($konek,$kueritim);$urut = 1;$cek=$datatim['nama'];
 							   if($cek=""){echo"";}{echo "";}
 							  while($datatim = mysqli_fetch_array($runtim)){?><br>&emsp;<?php echo $urut; ?>.&nbsp; <?php echo ucwords(strtolower($datatim['nama'])); ?> (<?php echo $datatim['seksi']; ?>)
 								<?php
@@ -434,7 +434,7 @@
 								$selesai = substr($data6['selesai'],11,5);
 								$idst_kersduk = $data6['id'];?>
 								<td><?php if($agenda ==""){echo "Tidak Ada Jadwal";}else{echo $no.'. '.$agenda.' Waktu '.$mulai.' WIB - '.$selesai.' WIB';} ?>
-								 <?php $id = $data['id'];$idst = $data['id'];$kueritim = "select distinct * from pegawai_events,id_seksi where id_events_pgw='$idst_kersduk' and pegawai_events.id_sie=id_seksi.id_sie";$runtim = mysqli_query($konek,$kueritim);$urut = a;$cek=$datatim['nama'];
+								 <?php $id = $data['id'];$idst = $data['id'];$kueritim = "select distinct * from pegawai_events,id_seksi where id_events_pgw='$idst_kersduk' and pegawai_events.id_sie=id_seksi.id_sie";$runtim = mysqli_query($konek,$kueritim);$urut = 1;$cek=$datatim['nama'];
 							   if($cek=""){echo"";}{echo "";}
 							  while($datatim = mysqli_fetch_array($runtim)){?><br>&emsp;<?php echo $urut; ?>.&nbsp; <?php echo ucwords(strtolower($datatim['nama'])); ?> (<?php echo $datatim['seksi']; ?>)
 								<?php
