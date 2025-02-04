@@ -107,6 +107,11 @@
             <select class="col-md-6 form-control form-control-sm select2bs4" style="width: 100%;" name="subdit" required>
             <option value="">--Pilih Subdit--</option>
             <option value="<?php echo $id_subdit; ?>"><?php echo $subdit; ?></option>
+            <option value="4">SubDirektorat Perencanaan Pemeriksaan</option>
+            <option value="7">SubDirektorat Teknik dan Pengendalian Pemeriksaan</option>
+            <option value="10">SubDirektorat Pemeriksaan Transaksi Khusus</option>
+            <option value="1">SubDirektorat Kerjasama dan Dukungan Pemeriksaan</option>
+            <option value="13">SubDirektorat Penagihan</option>
             </select></td>
             </tr>
             <tr><td>Jumlah Peserta</td>

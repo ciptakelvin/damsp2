@@ -116,12 +116,18 @@ $data = mysqli_fetch_array($run);
                 <?php
                 }
                 ?>
-            <option value="">--Pilih Subdit--</option>
+            <?php if($data['subdit']!=22){ ?><option value="22">Direktur</option> <?php } ?>
+            <?php if($data['subdit']!=4){ ?><option value="4">SubDirektorat Perencanaan Pemeriksaan</option> <?php } ?>
+            <?php if($data['subdit']!=7){ ?><option value="7">SubDirektorat Teknik dan Pengendalian Pemeriksaan</option> <?php } ?>
+            <?php if($data['subdit']!=10){ ?><option value="10">SubDirektorat Pemeriksaan Transaksi Khusus</option> <?php } ?>
+            <?php if($data['subdit']!=1){ ?><option value="1">SubDirektorat Kerjasama dan Dukungan Pemeriksaan</option> <?php } ?>
+            <?php if($data['subdit']!=12){ ?><option value="12">SubDirektorat Penagihan</option> <?php } ?>
+<!-- 
             <option value="4">SubDirektorat Perencanaan Pemeriksaan</option>
             <option value="7">SubDirektorat Teknik dan Pengendalian Pemeriksaan</option>
             <option value="10">SubDirektorat Pemeriksaan Transaksi Khusus</option>
             <option value="1">SubDirektorat Kerjasama dan Dukungan Pemeriksaan</option>
-            <option value="13">SubDirektorat Penagihan</option>
+            <option value="13">SubDirektorat Penagihan</option> -->
             </select></td>
             </tr>
             <tr><td>Jumlah Peserta</td>
