@@ -124,7 +124,10 @@
 		</div>
 	</div>
 	
-<a style="left:20px;bottom:20px;position:absolute;" target="_blank" href="https://github.com/ciptakelvin/damsp2"><img height=30 src="img/github-brands-solid.svg" alt=""></a>
+
+<div style="left:30px;bottom:10px;position:absolute;">
+	<a target="_blank" href="https://github.com/ciptakelvin/damsp2"><img height=30 src="img/github-brands-solid.svg" alt=""></a>
+</div>
 <!-- jQuery -->
 <script src="../../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
