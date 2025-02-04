@@ -177,10 +177,10 @@
 								$tgl_keg3 = substr($data['tanggal_selesai'],8,2);
 								$agenda = $data2['agenda'];
 								$nama_subdit = $data2['nama_subdit'];
-								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$nama_subdit;}
+								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$data2["peminjam"];}
 								$mulai = substr($data2['tanggal_mulai'],11,5);
 								$selesai = substr($data2['tanggal_selesai'],11,5);
-								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$nama_subdit.')';}?>
+								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$data2["peminjam"].')';}?>
                 </div>
                 <div class="alert alert-info alert-dismissible">
                   <h5> Ruang Rapat Cakti</h5>
@@ -196,10 +196,10 @@
 								$tgl_keg3 = substr($data['tanggal_selesai'],8,2);
 								$agenda = $data2['agenda'];
 								$nama_subdit = $data2['nama_subdit'];
-								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$nama_subdit;}
+								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$data2["peminjam"];}
 								$mulai = substr($data2['tanggal_mulai'],11,5);
 								$selesai = substr($data2['tanggal_selesai'],11,5);
-								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$nama_subdit.')';}?>
+								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$data2["peminjam"].')';}?>
                 </div>
                 <div class="alert alert-warning alert-dismissible">
                   <h5> Ruang Rapat Gijzeling</h5>
@@ -216,10 +216,10 @@
 								$agenda = $data2['agenda'];
 								$nama_subdit = $data2['nama_subdit'];
 								$no = 1;
-								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$nama_subdit;}
+								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$data2["peminjam"];}
 								$mulai = substr($data2['tanggal_mulai'],11,5);
 								$selesai = substr($data2['tanggal_selesai'],11,5);
-								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$nama_subdit.')';};
+								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$data2["peminjam"].')';};
 								?>
                 </div>
                 <div class="alert alert-success alert-dismissible">
@@ -236,10 +236,10 @@
 								$tgl_keg3 = substr($data['tanggal_selesai'],8,2);
 								$agenda = $data2['agenda'];
 								$nama_subdit = $data2['nama_subdit'];
-								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$nama_subdit;}
+								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$data2["peminjam"];}
 								$mulai = substr($data2['tanggal_mulai'],11,5);
 								$selesai = substr($data2['tanggal_selesai'],11,5);
-								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$nama_subdit.')';}?>
+								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$data2["peminjam"].')';}?>
                 </div>
 				<div class="alert alert-primary alert-dismissible">
                   <h5> Ruang Broadcast Lt 14</h5>
@@ -255,10 +255,10 @@
 								$tgl_keg3 = substr($data['tanggal_selesai'],8,2);
 								$agenda = $data2['agenda'];
 								$nama_subdit = $data2['nama_subdit'];
-								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$nama_subdit;}
+								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$data2["peminjam"];}
 								$mulai = substr($data2['tanggal_mulai'],11,5);
 								$selesai = substr($data2['tanggal_selesai'],11,5);
-								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$nama_subdit.')';}?>
+								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$data2["peminjam"].')';}?>
                 </div>
 				<div class="alert alert-secondary alert-dismissible">
                   <h5> Ruang Rapat Auditor</h5>
@@ -274,10 +274,10 @@
 								$tgl_keg3 = substr($data['tanggal_selesai'],8,2);
 								$agenda = $data2['agenda'];
 								$nama_subdit = $data2['nama_subdit'];
-								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$nama_subdit;}
+								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$data2["peminjam"];}
 								$mulai = substr($data2['tanggal_mulai'],11,5);
 								$selesai = substr($data2['tanggal_selesai'],11,5);
-								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$nama_subdit.')';}?>
+								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$data2["peminjam"].')';}?>
                 </div>
 				<div class="alert alert-dark alert-dismissible">
                   <h5> Ruang Closing A Lt 14</h5>
@@ -293,10 +293,10 @@
 								$tgl_keg3 = substr($data['tanggal_selesai'],8,2);
 								$agenda = $data2['agenda'];
 								$nama_subdit = $data2['nama_subdit'];
-								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$nama_subdit;}
+								if($nama_subdit == "Direktur"){$nama_subdit = "Subbagian Tata Usaha";}else{$data2["peminjam"];}
 								$mulai = substr($data2['tanggal_mulai'],11,5);
 								$selesai = substr($data2['tanggal_selesai'],11,5);
-								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$nama_subdit.')';}?>
+								if($agenda ==""){echo "";}else{echo $agenda.'<b>  '.$mulai.' WIB - '.$selesai.' WIB </b> | PIC ('.$data2["peminjam"].')';}?>
                 </div>
               </div>
               <!-- /.card-body -->
