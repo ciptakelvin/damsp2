@@ -4,6 +4,7 @@ function myFunction_1() {
 }
 </script>
 <?php
+include("conn.php");
 $query_seksi = "select * from id_seksi where id_sie='$seksi'";
 $run_seksi = mysqli_query($konek,$query_seksi);
 $data5 = mysqli_fetch_array($run_seksi);
