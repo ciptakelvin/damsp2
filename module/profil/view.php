@@ -4,6 +4,7 @@ function myFunction_1() {
 }
 </script>
 <?php
+include("conn.php");
 //query data pegawai
 $query = "select a.id_peg, nip9, nip18, nama, panggil, motivasi, email, wa, panggol, gambar, b.id_sie from pegawai a, id_seksi b where nip9 = '$user' and a.id_sie = b.id_sie";
 $run = mysqli_query($konek,$query);
