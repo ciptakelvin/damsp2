@@ -353,7 +353,7 @@ $halaman_awal = 0;
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2020 Kerjasama dan Dukungan Pemeriksaan.</strong> All rights
+    <strong>Copyright &copy; 2025 Kerjasama dan Dukungan Pemeriksaan.</strong> All rights
     reserved.
   </footer>
 
