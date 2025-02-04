@@ -63,6 +63,9 @@
 						  <input type="password" class="form-control form-control-sm" placeholder="Kata Sandi" name="pass">
 						</div>
 						<div class="row">
+							<p class="ml-2"> Belum Punya Akun? <a target="_blank" href="https://wa.me/6285155448521">Kontak Kami</a></p>
+						</div>
+						<div class="row">
 						  <!-- /.col -->
 						  <div class="col-4">
 						  <button type="submit" class="btn btn-sm btn-info btn-block">Masuk</button>
