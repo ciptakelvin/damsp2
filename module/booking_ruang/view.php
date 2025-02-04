@@ -123,7 +123,7 @@ $subdit = $data_user['subdit'];
               </td>
                <td><?php echo $data['peminjam']; ?></td>
 			    <td><?php echo $data['keterangan']; ?></td>
-              <td><?php if($subdit == $data_subdit){ ?><a title="Edit " href="?module=edit_ruangan&id=<?php echo $data['id'];?>" alt="Edit" class="btn btn-sm btn-warning"><img src="img/9_.png" height="20" width="20"></a>  
+              <td><?php if($user == $data[9]){ ?><a title="Edit " href="?module=edit_ruangan&id=<?php echo $data['id'];?>" alt="Edit" class="btn btn-sm btn-warning"><img src="img/9_.png" height="20" width="20"></a>  
             <a title="Hapus " href="?module=hapus_input_ruangan&id=<?php echo $data['id'];?>" alt="Lihat" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda Yakin Akan Menghapus Data Ini?');"><img src="img/10_.png" height="20" width="20"></a><?php } ?>
             </td>
           </tr>
