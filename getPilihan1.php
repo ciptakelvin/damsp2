@@ -26,7 +26,7 @@ while($row = mysqli_fetch_array($result)) {
   echo "<b style='color:Red;'>Harap Memperhatikan Kapasitas Max : " . $row['kapasitas'] . " Orang</b>";
 }
 echo "";
-mysqli_close($con);
+mysqli_close($konek);
 ?>
 </body>
 </html>
