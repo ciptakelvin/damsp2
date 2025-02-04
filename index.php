@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/icheck-bootstrap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="css/adminlte.min.css"> 
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 
   <style>
 	.hero-image {
@@ -119,8 +120,11 @@
 				</div>
 			</div>
 			</div>
+
 		</div>
 	</div>
+	
+<a style="left:20px;bottom:20px;position:absolute;" target="_blank" href="https://github.com/ciptakelvin/damsp2"><img height=30 src="img/github-brands-solid.svg" alt=""></a>
 <!-- jQuery -->
 <script src="../../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
